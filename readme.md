@@ -50,13 +50,13 @@ Returns a phaxio object with your keys set on the object.
 ```javascript
 opt = {
   // always required can be an array of a single string
-  to = ['xxxxxxxx', 'xxxxxxxxx'],
+  to: ['xxxxxxxx', 'xxxxxxxxx'],
   // one of these is required
-  filenames = ['path','path','path'],
-  string_data = 'String of data for phaxio to parse'
+  filenames: ['path','path','path'],
+  string_data: 'String of data for phaxio to parse',
   //optional
   string_data_type: '',
-  batch: "and othe phaxio options"
+  batch: 'and othe phaxio options'
 }
 
 phaxio.sendFax({
